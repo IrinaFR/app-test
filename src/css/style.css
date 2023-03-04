@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#genPlan{
+    position: relative;
+    border: dashed 1px #aaaaaa;
+
+}
+#genPlan.edit{
+    border: dashed 1px #0287e7;
+    background: #f3f8ff;
+}
+#genPlan img{
+    width: 100%;
+    max-width: 100%;
+}
+#genPlan svg{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+button{
+    background: #2c3e50;
+    color: #fff;
+    padding: 10px 20px;
+}

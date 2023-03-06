@@ -1,15 +1,11 @@
 <template lang="pug">
-AppGenplanIndex
+router-view
 </template>
 
 <script>
-import AppGenplanIndex from './components/genPlan/AppGenplanIndex.vue'
 
 export default {
 	name: 'App',
-	components: {
-		AppGenplanIndex
-	}
 }
 </script>
 
